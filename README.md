@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/98913705.svg)](https://zenodo.org/badge/latestdoi/98913705)
+
 # placektobaccopublic
 
 Data from Tobacco Intervention Study Mysore India March-April 2016
