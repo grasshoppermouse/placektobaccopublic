@@ -1,0 +1,22 @@
+Package: placektobaccopublic
+Type: Package
+Title: Tobacco Intervention Study Mysore India March-April 2016
+Version: 0.1
+Date: 2020-08-16
+Author: Caitlyn Placek
+Maintainer: Caitlyn Placek <caitlyn.placek@gmail.com>
+Description: The purpose of this study is twofold: 1) test the effects of public health
+  messages on smokeless tobacco use among pregnant and non-pregnant women and adolescent
+  girls (age 14 and up); and 2) investigate factors associated with tobacco use among
+  men, women, and children. This research will take place among rural populations in
+  Mysore, India. Research on substance use in India has traditionally focused on male
+  populations, but there is a growing concern regarding the patterns of use among
+  women (Murthy et al., 2010). In India, approximately 30% of women use some type of
+  tobacco (Gupta and Ray 2003), and tobacco use among tribal women could be up to
+  50%. Indian women who use smokeless tobacco have higher rates of stillbirths, lower
+  birth weights, and reduced gestation periods (Rogers 2009).
+License: CCBY
+LazyData: TRUE
+RoxygenNote: 7.1.0
+Depends: 
+    R (>= 2.10)
