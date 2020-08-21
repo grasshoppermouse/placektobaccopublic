@@ -10,12 +10,16 @@
 #'   \item{age}{age of participant, rounded up to the nearest "5", e.g., 23 -> 25 (to protect anonymity)}
 #'   \item{trimester}{Trimester of pregnancy or non-pregnant}
 #'   \item{education}{years of education, rounded up to the nearest "5", e.g., 3 -> 5 (to protect anonymity)}
-#'   \item{months_pregnant}{months pregnant, rounded to nearest 3 months, e.g., 4 -> 6 (to protect anonymity)}
 #'   \item{pregnancy_status}{Pregnant (P) or non-pregnant(NP)}
+#'   \item{months_pregnant}{months pregnant, rounded to nearest 3 months, e.g., 4 -> 6 (to protect anonymity)}
 #'   \item{monthly_income}{monthly family income in rupees, rounded up to the nearest 5000 (to protect anonymity)}
 #'   \item{marital_status}{marital status}
 #'   \item{arranged_marriage}{arranged marriage or love marriage}
 #'   \item{number_children}{number of children (4 or more rounded down to 4)}
+#'   \item{tobacco_ageofonset2'}{Age of onset of tobacco use}
+#'   \item{tobacco_use_acceptable}{Is it acceptable for women to use tobacco?}
+#'   \item{norm_rationale}{Why is it acceptable/unacceptable for women to use tobacco? (verbatim ansswer)}
+#'   \item{norm_rationale2}{Why is it acceptable/unacceptable for women to use tobacco? (aggregated)}
 #'   \item{nicotine1}{was nicotine consumed in last 12 hours at T1}
 #'   \item{nicotine2}{was nicotine consumed in last 12 hours at T2}
 #'   \item{tobacco_use}{does participant use tobacco}
@@ -23,6 +27,11 @@
 #'   \item{friend_tobacco_use2}{which friends use tobacco}
 #'   \item{mother_tobacco_use}{mother uses tobacco}
 #'   \item{motherinlaw_tobacco_use}{mother-in-law uses tobacco}
+#'   \item{ritual_tobacco}{does participant use tobacco in rituals?}
+#'   \item{tobacco_types2}{type of tobacco used}
+#'   \item{medicinal_tobacco2}{medicinal use of tobacco, if any}
+#'   \item{quitting_negatives}{Negative consequences of quitting tobacco use}
+#'   \item{quit_neg}{Are there negative consequences to quitting tobacco?}
 #'   \item{tobacco_24hr_freq2}{how often participant used product in last 24 hours}
 #'   \item{domestic_work_hrs}{number of hours spent doing domestic work}
 #'   \item{nondomestic_work_hrs}{number of hours spent doing non-domestic work}

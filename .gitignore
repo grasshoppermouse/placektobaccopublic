@@ -2,7 +2,6 @@
 .Rhistory
 .RData
 .DS_Store
-man*
 *.pdf
 *.doc
 *.html
