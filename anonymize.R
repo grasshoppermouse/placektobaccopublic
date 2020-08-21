@@ -1,6 +1,7 @@
 library(placektobacco)
 library(tidyverse)
 
+# Variables to include
 women_vars <- c(
   'ID',
   'GroupID',
@@ -15,14 +16,23 @@ women_vars <- c(
   'arranged_marriage',
   'number_children',
   'tobacco_ageofonset2',
+  'tobacco_use_acceptable',
+  'norm_rationale',
+  'norm_rationale2',
   'nicotine1',
   'nicotine2',
   'tobacco_use',
+  'family_tobacco_use',
   'family_tobacco_use2',
   'friend_tobacco_use2',
   'mother_tobacco_use',
   'motherinlaw_tobacco_use',
+  'ritual_tobacco',
   'tobacco_24hr_freq2',
+  'tobacco_types2',
+  'medicinal_tobacco2',
+  'quitting_negatives',
+  'quit_neg',
   'domestic_work_hrs',
   'nondomestic_work_hrs',
   'number_general',
