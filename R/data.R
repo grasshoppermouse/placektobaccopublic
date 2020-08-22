@@ -5,11 +5,14 @@
 #' @format A data frame with 92 rows and 129 variables:
 #' \describe{
 #'   \item{ID}{participant ID}
+#'   \item{Location}{Village ID}
 #'   \item{GroupID}{Presentation group}
 #'   \item{Presentation}{General harm (G). Reproductive harm (R).}
 #'   \item{age}{age of participant, rounded up to the nearest "5", e.g., 23 -> 25 (to protect anonymity)}
 #'   \item{trimester}{Trimester of pregnancy or non-pregnant}
 #'   \item{education}{years of education, rounded up to the nearest "5", e.g., 3 -> 5 (to protect anonymity)}
+#'   \item{occupation2}{Participant occupation (Agriculture or Other)}
+#'   \item{caste2}{Participant caste (Jenu Kuruba or Other)}
 #'   \item{pregnancy_status}{Pregnant (P) or non-pregnant(NP)}
 #'   \item{months_pregnant}{months pregnant, rounded to nearest 3 months, e.g., 4 -> 6 (to protect anonymity)}
 #'   \item{monthly_income}{monthly family income in rupees, rounded up to the nearest 5000 (to protect anonymity)}

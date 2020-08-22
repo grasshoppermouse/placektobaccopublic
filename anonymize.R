@@ -5,10 +5,13 @@ library(tidyverse)
 women_vars <- c(
   'ID',
   'GroupID',
+  'Location',
   'Presentation',
   'age',
   'trimester',
   'education',
+  'occupation2',
+  'caste2',
   'pregnancy_status',
   'months_pregnant',
   'monthly_income',
@@ -45,6 +48,7 @@ women <-
   women %>%
   mutate(
     GroupID = LETTERS[match(GroupID, unique(GroupID))],
+    Location = LETTERS[match(Location, unique(Location))],
     age = ceiling(age/5)*5,
     education = ceiling(education/5)*5,
     education = ifelse(education > 10, 10, education),
@@ -52,8 +56,8 @@ women <-
     monthly_income = ceiling(monthly_income/5000)*5000,
     monthly_income = ifelse(monthly_income > 20000, 20000, monthly_income),
     number_children = ifelse(number_children > 4, 4, number_children),
-    occupation = ifelse(occupation2 == 'Agriculture', 'Agriculture', 'Other'),
-    caste = ifelse(caste2 == 'Jenu Kuruba', 'Jenu Kuruba', 'Other'),
+    occupation2 = ifelse(occupation2 == 'Agriculture', 'Agriculture', 'Other'),
+    caste2 = ifelse(caste2 == 'Jenu Kuruba', 'Jenu Kuruba', 'Other'),
     marital_status = ifelse(marital_status == 'Married', 'Married', 'Not married')
   ) %>%
   dplyr::select(
